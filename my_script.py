@@ -4,11 +4,11 @@ print(' \nЗадача 1. Калькулятор опыта\n ')
 
 experience = int(input('Ведите кол-во опыта: '))
 
-if experience < 1000:
+if experience < 1700:
     print('Ваш уровень: 1')
 elif experience < 2500:
     print('Ваш уровень: 2')
-elif experience < 5000:
+elif experience < 6000:
     print('Ваш уровень: 3')
 else:
     print('Ваш уровень: 4')
