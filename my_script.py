@@ -1,7 +1,7 @@
 #Задача 1
 
 print(' \nЗадача 1. Калькулятор опыта\n ')
-
+name = input('Введите свое имя: ')
 experience = int(input('Ведите кол-во опыта: '))
 
 if experience < 1700:
